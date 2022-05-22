@@ -9,9 +9,14 @@ body {
 
 h1 {
     font-family: 'Montserrat-Black', sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
     line-height: 1.5;
     font-weight: 900;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .container-fluid {
@@ -48,5 +53,24 @@ h1 {
 /* title image */
 .iphonepic {
   transform: rotate(30deg);
-  width: 50%;
+  width: 70%;
+}
+
+/* features */
+#features {
+  margin: 5% 3% 5% 0
+}
+
+.features-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color: #FF5D5D;
+}
+
+.icon:hover {
+  color: #FFC3C3;
 }
