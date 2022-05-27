@@ -14,6 +14,11 @@ h1 {
     font-weight: 900;
 }
 
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
 h3 {
   font-size: 1.5rem;
   font-weight: bold;
@@ -73,4 +78,43 @@ h3 {
 
 .icon:hover {
   color: #FFC3C3;
+}
+
+/*Testimonials section*/
+
+#testimonials {
+    text-align: center;
+    background-color: #FF5D5D;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin:20px;
+}
+
+#press {
+    background-color:#FF5D5D;
+    padding-bottom: 3%;
+    text-align:center;
+}
+
+.press-png {
+    width:10%;
+    margin: 10px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/*Pricing section*/
+#pricing {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.card-deck {
+    padding-top: 5%;
 }
