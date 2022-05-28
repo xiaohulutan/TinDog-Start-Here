@@ -25,7 +25,7 @@ h3 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 7% 15%;
 }
 
 /* Navigation Bar  */
@@ -56,14 +56,32 @@ h3 {
 
 
 /* title image */
+/* file:///D:/web%20projects/Stacking+Order+Flowchart+v2.1.pdf */
 .iphonepic {
-  transform: rotate(30deg);
-  width: 70%;
+  transform: rotate(20deg);
+  width: 50%;
+  /* 在html flow中top than feature section, 即使没有z-index因为position的属性是一个absolute 一个relative,所以the one below and relative will be on top. */
+  z-index: 0;
+  position: absolute;
+  right: 15%;
+}
+
+@media screen and (max-width: 978px) {
+  #title {
+    text-align: center;
+  }
+  .iphonepic{
+    position: static;
+    transform: rotate(0);
+  }
 }
 
 /* features */
 #features {
-  margin: 5% 3% 5% 0
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .features-box {
