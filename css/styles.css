@@ -1,32 +1,33 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-}
-
-h1 {
+h1,h2,h3 h4, h5 {
     font-family: 'Montserrat-Black', sans-serif;
-    font-size: 4rem;
-    line-height: 1.5;
-    font-weight: 900;
 }
 
-h2 {
-    font-family: 'Montserrat-Black', sans-serif;
-    font-size: 3rem;
-    font-weight: bold;
-}
 
-h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
+.big-title {
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: 900;
 }
 
 .container-fluid {
   padding: 7% 15%;
+}
+
+/* Title section  */
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
 
 /* Navigation Bar  */
@@ -47,7 +48,6 @@ h3 {
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: 'Montserrat', sans-serif;
 }
 
 /* Download Button */
@@ -79,14 +79,17 @@ h3 {
 
 /* features */
 #features {
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
   z-index: 1;
 }
 
+feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .features-box {
-  text-align: center;
   padding: 5%;
 }
 
@@ -102,9 +105,13 @@ h3 {
 /*Testimonials section*/
 
 #testimonials {
-    text-align: center;
     background-color: #FF5D5D;
     color: #fff;
+}
+
+.testimonials-title {
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .testimonial-image {
@@ -116,7 +123,6 @@ h3 {
 #press {
     background-color:#FF5D5D;
     padding-bottom: 3%;
-    text-align:center;
 }
 
 .press-png {
@@ -124,39 +130,35 @@ h3 {
     margin: 10px 20px 50px;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
-
 /*Pricing section*/
-#pricing {
-    padding: 7% 15%;
-    text-align: center;
+
+
+.pricing-title {
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .card-deck {
     padding-top: 5%;
 }
 
+card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 /* Call to action  */
 #cta {
   background-color: #FF5D5D;
-  padding: 7% 15%;
-  text-align: center;
   color: #fff;
 }
 
-.cta-btn {
-  margin: 5% 3% 5% 0;
-}
 
 
 /* Footer */
 
 #footer {
   background-color: #fff;
-  text-align: center;
-  padding: 7% 15%;
 }
 
 .footer-icon {
