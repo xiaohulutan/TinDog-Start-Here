@@ -15,6 +15,7 @@ h1 {
 }
 
 h2 {
+    font-family: 'Montserrat-Black', sans-serif;
     font-size: 3rem;
     font-weight: bold;
 }
@@ -135,4 +136,16 @@ h3 {
 
 .card-deck {
     padding-top: 5%;
+}
+
+/* Call to action  */
+#cta {
+  background-color: #FF5D5D;
+  padding: 7% 15%;
+  text-align: center;
+  color: #fff;
+}
+
+.cta-btn {
+  margin: 5% 3% 5% 0;
 }
