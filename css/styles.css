@@ -18,6 +18,16 @@ h1,h2,h3 h4, h5 {
   padding: 7% 15%;
 }
 
+/* module repead part of background colour and font colour */
+.coloured-section {
+  background-color: #FF5D5D;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
 /* Title section  */
 
 #title {
@@ -26,6 +36,7 @@ h1,h2,h3 h4, h5 {
     text-align: left;
 }
 
+/* hierachical selector class container-fluid is included in id title  */
 #title .container-fluid {
   padding: 3% 15% 7%;
 }
@@ -67,6 +78,7 @@ h1,h2,h3 h4, h5 {
   right: 15%;
 }
 
+/* change position when screenzise is less than 978px */
 @media screen and (max-width: 978px) {
   #title {
     text-align: center;
@@ -79,7 +91,6 @@ h1,h2,h3 h4, h5 {
 
 /* features */
 #features {
-  background-color: #fff;
   position: relative;
   z-index: 1;
 }
@@ -104,10 +115,6 @@ feature-title {
 
 /*Testimonials section*/
 
-#testimonials {
-    background-color: #FF5D5D;
-    color: #fff;
-}
 
 .testimonials-title {
   font-size: 3rem;
@@ -121,7 +128,6 @@ feature-title {
 }
 
 #press {
-    background-color:#FF5D5D;
     padding-bottom: 3%;
 }
 
@@ -149,7 +155,6 @@ card-title {
 
 /* Call to action  */
 #cta {
-  background-color: #FF5D5D;
   color: #fff;
 }
 
@@ -157,9 +162,6 @@ card-title {
 
 /* Footer */
 
-#footer {
-  background-color: #fff;
-}
 
 .footer-icon {
   margin: 15px 10px;
